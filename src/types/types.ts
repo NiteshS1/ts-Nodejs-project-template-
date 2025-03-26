@@ -1,7 +1,7 @@
 export type THttpResponse = {
     success: boolean
     statusCode: number
-    resquest: {
+    request: {
         ip?: string | null
         method: string
         url: string
@@ -13,7 +13,7 @@ export type THttpResponse = {
 export type THttpError = {
     success: boolean
     statusCode: number
-    resquest: {
+    request: {
         ip?: string | null
         method: string
         url: string
